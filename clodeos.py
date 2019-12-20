@@ -2,7 +2,8 @@ import requests
 
 
 '''
-Api documention https://documenter.getpostman.com/view/2734345/SVmyQGv1?version=latest#ae315fb3-f3e2-4e5c-b33b-cb2f65b43d8f
+Api documention 
+https://documenter.getpostman.com/view/2734345/SVmyQGv1?version=latest
 '''
 
 
