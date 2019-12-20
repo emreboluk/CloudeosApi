@@ -27,7 +27,7 @@ print(account_detail)
 ```
 
 
-#### Create Server
+#### Create Server:
 ```
 from cloudeos import API
 
