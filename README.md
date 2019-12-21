@@ -10,6 +10,9 @@ Cloudeos.com için python api kullanımı örnegidir, api dökümanlarından bak
 - Destroy Server
 - Create SSH Key
 - Get SSH Keys
+- Destroy SSH Keys
+- Get Regions
+- Get Packages
 
 
 
@@ -37,9 +40,9 @@ cloudeos = API("username", "password")
 
 name	 = "MyServer"
 region	 = "ist2"
-package  = "eos1"
+package  = "1c-1r-25d"
 image	 = "ubuntu-16-04-x64"
-ssh_keys = "MySSHKey" #key olusturulmussa veya istege bagli
+ssh_keys = "MySSHKey fingerprint degeri" #key olusturulmussa veya istege bagli
 
 create   = cloudeos.create_server(name, region, package, image, ssh_keys=ssh_keys)
 

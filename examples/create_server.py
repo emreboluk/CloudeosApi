@@ -9,10 +9,10 @@ from cloudeos import API
 cloudeos = API("username", "password")
 
 name	 = "MyServer"
-region	 = "ist2"
+region	 = "ist1"
 package  = "eos1"
 image	 = "ubuntu-16-04-x64"
-ssh_keys = "MySSHKey" #key olusturulmussa veya istege bagli
+ssh_keys = "MySSHKey Fingerprint" #key olusturulmussa veya istege bagli olarak get_sshkeys() fingerprint degeri
 
 create   = cloudeos.create_server(name, region, package, image, ssh_keys=ssh_keys)
 
