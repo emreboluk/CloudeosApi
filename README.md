@@ -14,6 +14,9 @@ Cloudeos.com için python api kullanımı örnegidir, api dökümanlarından bak
 
 
 ### Example
+
+Çalıştırılacak örnek kodlarda cloudeos.py içe aktarmadan önce aynı dizinde olduğuna dikkat ediniz. Example klasöründeki kodları direkt olarak çalıştırmak isterseniz cloudeos.py dosyasını o dizine kopyalayabilir/taşıyabilirsiniz.
+
 #### Get Account Detail:
 ```
 from cloudeos import API
